@@ -1,0 +1,41 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+.row{
+  max-width: 800px;
+  border: .1em black dotted;
+  margin: 1em auto;
+  border-radius: .3em;
+  padding: 1em;
+}
+
+.col-1{
+  border: .1em black solid;
+  margin: 1em auto;
+  padding: .3em;
+}
+
+/*.col-8 .row{
+  display: inline-block;
+  border: .1em black dotted;
+  margin: 3em auto;
+  padding: 2em;
+}
+*/
+
+.col-4{
+
+}
+
+.col-6{
+
+}
+
+.col-8{
+
+
+}
