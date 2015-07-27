@@ -15,6 +15,7 @@
   max-width: 80%;
   height: 20em;
   margin: 1em;
+
 }
 
 .bottom{
@@ -30,10 +31,10 @@
 
 .inner {
   display: inline-block;
+  height: 30%;
   width: 95%;
-  height: 5em;
+  padding-top: 2em;
 }
-
 
 .col-8 {
   width: 65%;
@@ -61,11 +62,6 @@
   display: inline-block;
 }
 
-.inner{
-  height: 30%;
-  padding-top: 2em;
-}
-
 .left{
   float: left;
 }
@@ -83,3 +79,27 @@
   text-align: center;
 }
 
+@media all and (max-width : 1000px) {
+  .col-1 {width: 14%}
+  .col-4 {width: 60%}
+  .col-6 {width: 100%}
+  .col-8 {width: 100%}
+  .middle {width: 100%}
+  .bottom {width: 100%}
+}
+
+@media all and (max-width : 800px) {
+  .col-1 {width: 14%}
+  .col-4 {width: 60%}
+  .col-6 {width: 100%}
+  .col-8 {width: 100%}
+  .middle {width: 100%}
+  .bottom {width: 100%}
+}
+
+@media all and (max-width : 650px) {
+  .col-1 {width: 50%}
+  .col-4 {width: 100%}
+  .col-6 {width: 100%}
+  .col-8 {width: 100%}
+}
